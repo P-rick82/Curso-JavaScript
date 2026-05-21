@@ -202,4 +202,4 @@ let TextoP = document.getElementById("Texto");
 
 let saudacao = prompt("Digite uma saudação: ");
 
-TextoP.textContent = saudacao == "Bom dia!" ? saudacao : "Note this time!";
+TextoP.textContent = saudacao == "Bom dia" ? saudacao : "Note this time!";
