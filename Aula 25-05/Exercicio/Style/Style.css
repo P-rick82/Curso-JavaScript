@@ -1,0 +1,4 @@
+button {
+    padding: 10px 15px; /* espaço de 10px em cima e embaixo e 15px nas laterais.*/
+    cursor: pointer; /* trasnforma o cursor (que no momento é uma setinha) em mãozinha */
+}
