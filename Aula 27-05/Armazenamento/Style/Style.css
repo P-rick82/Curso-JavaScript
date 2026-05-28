@@ -36,3 +36,27 @@ body{
 #titulo {
     text-align: center; /*Alinha o texto ao centro*/
 }
+
+.botao-remover {
+
+    border: none;
+    background-color: none;
+    cursor: pointer;
+
+}
+
+li {
+    list-style: none; /*Remove o estilo de lista (Pontuações(1.Coisa; °.Coisa))*/
+    background-color: rgb(245, 204, 116);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px; /*Margem na base do elemento*/
+    display: flex;
+    /* flex-direction: column; */ /*dar uma olhada dps*/
+    justify-content: space-between; /*Coloca espaço entre os elementos*/
+    align-items: center;
+}
+
+#lista-tarefas {
+    padding: 0; /*Alinha a lista*/
+}
